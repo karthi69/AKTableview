@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2508FBC92208421D004DE3CF /* AKTableviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2508FBC82208421D004DE3CF /* AKTableviewCell.swift */; };
+		2508FBCB22084265004DE3CF /* AKTableviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2508FBCA22084265004DE3CF /* AKTableviewCell.xib */; };
+		251F452A2161355900AB3B32 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251F45292161355900AB3B32 /* ViewModel.swift */; };
+		2554CC09223FFD1600DE601E /* AKConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554CC08223FFD1600DE601E /* AKConstants.swift */; };
 		25FBEFEF215650CA00EC918C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FBEFEE215650CA00EC918C /* AppDelegate.swift */; };
 		25FBEFF1215650CA00EC918C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FBEFF0215650CA00EC918C /* ViewController.swift */; };
 		25FBEFF4215650CA00EC918C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25FBEFF2215650CA00EC918C /* Main.storyboard */; };
 		25FBEFF6215650CC00EC918C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25FBEFF5215650CC00EC918C /* Assets.xcassets */; };
 		25FBEFF9215650CC00EC918C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25FBEFF7215650CC00EC918C /* LaunchScreen.storyboard */; };
+		25FBF0032156516800EC918C /* AKTableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FBF0022156516800EC918C /* AKTableview.swift */; };
+		25FBF0052156517C00EC918C /* AKTableviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FBF0042156517C00EC918C /* AKTableviewModel.swift */; };
+		25FBF0092156520A00EC918C /* AKPlaceHolderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FBF0082156520A00EC918C /* AKPlaceHolderView.xib */; };
+		25FBF00B2156523700EC918C /* AKPlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FBF00A2156523700EC918C /* AKPlaceHolderView.swift */; };
+		25FBF00E2156546A00EC918C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FBF00D2156546A00EC918C /* Utility.swift */; };
+		25FBF0112156551800EC918C /* AKProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FBF0102156551800EC918C /* AKProgressView.swift */; };
+		25FBF0142157539400EC918C /* AKReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FBF0132157539400EC918C /* AKReachabilityManager.swift */; };
+		CA567D82C96BC9D53BEFBEF6 /* Pods_AKTableview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9E8FA30EED46F85D408103 /* Pods_AKTableview.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AAA53ECE200643EBE034B15 /* Pods-AKTableview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKTableview.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AKTableview/Pods-AKTableview.debug.xcconfig"; sourceTree = "<group>"; };
+		1BD76FB2261DEEFD05431248 /* Pods-AKTableview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKTableview.release.xcconfig"; path = "Pods/Target Support Files/Pods-AKTableview/Pods-AKTableview.release.xcconfig"; sourceTree = "<group>"; };
+		2508FBC82208421D004DE3CF /* AKTableviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKTableviewCell.swift; sourceTree = "<group>"; };
+		2508FBCA22084265004DE3CF /* AKTableviewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AKTableviewCell.xib; sourceTree = "<group>"; };
+		251F45292161355900AB3B32 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		2554CC08223FFD1600DE601E /* AKConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKConstants.swift; sourceTree = "<group>"; };
 		25FBEFEB215650CA00EC918C /* AKTableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKTableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25FBEFEE215650CA00EC918C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25FBEFF0215650CA00EC918C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +40,14 @@
 		25FBEFF5215650CC00EC918C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25FBEFF8215650CC00EC918C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25FBEFFA215650CC00EC918C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25FBF0022156516800EC918C /* AKTableview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKTableview.swift; sourceTree = "<group>"; };
+		25FBF0042156517C00EC918C /* AKTableviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKTableviewModel.swift; sourceTree = "<group>"; };
+		25FBF0082156520A00EC918C /* AKPlaceHolderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKPlaceHolderView.xib; sourceTree = "<group>"; };
+		25FBF00A2156523700EC918C /* AKPlaceHolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKPlaceHolderView.swift; sourceTree = "<group>"; };
+		25FBF00D2156546A00EC918C /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		25FBF0102156551800EC918C /* AKProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKProgressView.swift; sourceTree = "<group>"; };
+		25FBF0132157539400EC918C /* AKReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKReachabilityManager.swift; sourceTree = "<group>"; };
+		8D9E8FA30EED46F85D408103 /* Pods_AKTableview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKTableview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA567D82C96BC9D53BEFBEF6 /* Pods_AKTableview.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C8F51E7F45D59D7A0539B05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D9E8FA30EED46F85D408103 /* Pods_AKTableview.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		251F45282161353000AB3B32 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				25FBEFF0215650CA00EC918C /* ViewController.swift */,
+				251F45292161355900AB3B32 /* ViewModel.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		25FBEFE2215650CA00EC918C = {
 			isa = PBXGroup;
 			children = (
 				25FBEFED215650CA00EC918C /* AKTableview */,
 				25FBEFEC215650CA00EC918C /* Products */,
+				49B30F13AD45964931E8DC01 /* Pods */,
+				0C8F51E7F45D59D7A0539B05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +100,73 @@
 		25FBEFED215650CA00EC918C /* AKTableview */ = {
 			isa = PBXGroup;
 			children = (
+				251F45282161353000AB3B32 /* Example */,
+				25FBF0012156513B00EC918C /* Model */,
+				25FBF0002156512E00EC918C /* View */,
+				25FBF00C2156545E00EC918C /* Common */,
+				25FBF00F215654ED00EC918C /* Progress view */,
+				25FBF012215656AB00EC918C /* Reachability Manager */,
 				25FBEFEE215650CA00EC918C /* AppDelegate.swift */,
-				25FBEFF0215650CA00EC918C /* ViewController.swift */,
 				25FBEFF2215650CA00EC918C /* Main.storyboard */,
 				25FBEFF5215650CC00EC918C /* Assets.xcassets */,
 				25FBEFF7215650CC00EC918C /* LaunchScreen.storyboard */,
 				25FBEFFA215650CC00EC918C /* Info.plist */,
 			);
 			path = AKTableview;
+			sourceTree = "<group>";
+		};
+		25FBF0002156512E00EC918C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				25FBF0082156520A00EC918C /* AKPlaceHolderView.xib */,
+				25FBF0022156516800EC918C /* AKTableview.swift */,
+				25FBF00A2156523700EC918C /* AKPlaceHolderView.swift */,
+				2508FBC82208421D004DE3CF /* AKTableviewCell.swift */,
+				2508FBCA22084265004DE3CF /* AKTableviewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		25FBF0012156513B00EC918C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25FBF0042156517C00EC918C /* AKTableviewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25FBF00C2156545E00EC918C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				25FBF00D2156546A00EC918C /* Utility.swift */,
+				2554CC08223FFD1600DE601E /* AKConstants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		25FBF00F215654ED00EC918C /* Progress view */ = {
+			isa = PBXGroup;
+			children = (
+				25FBF0102156551800EC918C /* AKProgressView.swift */,
+			);
+			path = "Progress view";
+			sourceTree = "<group>";
+		};
+		25FBF012215656AB00EC918C /* Reachability Manager */ = {
+			isa = PBXGroup;
+			children = (
+				25FBF0132157539400EC918C /* AKReachabilityManager.swift */,
+			);
+			path = "Reachability Manager";
+			sourceTree = "<group>";
+		};
+		49B30F13AD45964931E8DC01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AAA53ECE200643EBE034B15 /* Pods-AKTableview.debug.xcconfig */,
+				1BD76FB2261DEEFD05431248 /* Pods-AKTableview.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25FBEFFD215650CC00EC918C /* Build configuration list for PBXNativeTarget "AKTableview" */;
 			buildPhases = (
+				A7B2E9E7ED6F1CB9328CECAB /* [CP] Check Pods Manifest.lock */,
 				25FBEFE7215650CA00EC918C /* Sources */,
 				25FBEFE8215650CA00EC918C /* Frameworks */,
 				25FBEFE9215650CA00EC918C /* Resources */,
+				750490D67415FCDA6DEE374A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,11 +231,62 @@
 			files = (
 				25FBEFF9215650CC00EC918C /* LaunchScreen.storyboard in Resources */,
 				25FBEFF6215650CC00EC918C /* Assets.xcassets in Resources */,
+				25FBF0092156520A00EC918C /* AKPlaceHolderView.xib in Resources */,
+				2508FBCB22084265004DE3CF /* AKTableviewCell.xib in Resources */,
 				25FBEFF4215650CA00EC918C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		750490D67415FCDA6DEE374A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AKTableview/Pods-AKTableview-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKTableview/Pods-AKTableview-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7B2E9E7ED6F1CB9328CECAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AKTableview-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		25FBEFE7215650CA00EC918C /* Sources */ = {
@@ -136,7 +294,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				25FBEFF1215650CA00EC918C /* ViewController.swift in Sources */,
+				251F452A2161355900AB3B32 /* ViewModel.swift in Sources */,
+				25FBF00B2156523700EC918C /* AKPlaceHolderView.swift in Sources */,
+				2508FBC92208421D004DE3CF /* AKTableviewCell.swift in Sources */,
+				25FBF00E2156546A00EC918C /* Utility.swift in Sources */,
+				25FBF0112156551800EC918C /* AKProgressView.swift in Sources */,
+				25FBF0052156517C00EC918C /* AKTableviewModel.swift in Sources */,
 				25FBEFEF215650CA00EC918C /* AppDelegate.swift in Sources */,
+				25FBF0142157539400EC918C /* AKReachabilityManager.swift in Sources */,
+				2554CC09223FFD1600DE601E /* AKConstants.swift in Sources */,
+				25FBF0032156516800EC918C /* AKTableview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +447,7 @@
 		};
 		25FBEFFE215650CC00EC918C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AAA53ECE200643EBE034B15 /* Pods-AKTableview.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,13 +459,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Socket.test.AKTableview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		25FBEFFF215650CC00EC918C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD76FB2261DEEFD05431248 /* Pods-AKTableview.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,7 +478,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Socket.test.AKTableview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
