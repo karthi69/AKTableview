@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BB8112E8A440A7363349F7DF886C00A4"
+               BlueprintIdentifier = "7C7734E61C66305EB814BA03C55DEFC6"
                BuildableName = "Pods_AKTableview.framework"
                BlueprintName = "Pods-AKTableview"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BB8112E8A440A7363349F7DF886C00A4"
+            BlueprintIdentifier = "7C7734E61C66305EB814BA03C55DEFC6"
             BuildableName = "Pods_AKTableview.framework"
             BlueprintName = "Pods-AKTableview"
             ReferencedContainer = "container:Pods.xcodeproj">

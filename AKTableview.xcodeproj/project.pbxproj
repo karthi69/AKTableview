@@ -246,7 +246,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AKTableview/Pods-AKTableview-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-AKTableview/Pods-AKTableview-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
@@ -265,7 +265,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKTableview/Pods-AKTableview-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AKTableview/Pods-AKTableview-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A7B2E9E7ED6F1CB9328CECAB /* [CP] Check Pods Manifest.lock */ = {
